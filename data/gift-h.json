@@ -1,0 +1,25 @@
+[
+    {
+        "title": ["水晶内雕/3D激光内雕水晶","进口/泰国保鲜花","金箔玫瑰/金箔画","精品音乐盒/八音盒","生日礼品","约会/求爱礼品","结婚礼品","感谢/祝福礼品","拜访/探望礼品","结婚纪念日礼品"]
+    },
+    {
+        "tit" : "施华洛世奇",
+        "src" : "../image/gift-b1.png"
+    },
+    {
+        "tit" : "Glam Ever潮牌饰品",
+        "src" : "../image/gift-b2.png"
+    },
+    {
+        "tit" : "迪奥Dior",
+        "src" : "../image/gift-b3.png"
+    },
+    {
+        "tit" : "猫王收音机",
+        "src" : "../image/gift-b4.png"
+    },
+    {
+        "tit" : "Hello Kitty",
+        "src" : "../image/gift-b5.png"
+    }
+]

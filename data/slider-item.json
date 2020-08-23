@@ -1,0 +1,211 @@
+[
+    {
+        "title": "鲜花用途",
+        "content" : ["爱情鲜花","生日鲜花","友情鲜花","问候长辈","探病慰问","道歉鲜花","祝贺鲜花","婚庆鲜花","商务鲜花"]
+    },
+    {
+        "title": "鲜花花材",
+        "content" : ["玫瑰","康奶昔","百合","向日葵","扶郎","郁金香","马蒂莲"]
+    },
+    {
+        "title": "永生花",
+        "content" : ["永生花瓶","经典花盒","特色永生花"],
+        "menu" : [
+            {
+                "tit" : "永生花类别",
+                "con" : [
+                    {
+                        "src" : "../image/ysh1.png",
+                        "p" : "永生瓶花"
+                    },
+                    {
+                        "src" : "../image/ysh2.png",
+                        "p" : "经典花盒"
+                    },
+                    {
+                        "src" : "../image/ysh1.png",
+                        "p" : "永生瓶花"
+                    },
+                    {
+                        "src" : "../image/ysh2.png",
+                        "p" : "经典花盒"
+                    }
+                ]
+            },
+            {
+                "tit" : "对象",
+                "con" : [
+                    {
+                        "src" : "../image/ysh3.png",
+                        "p" : "送男友"
+                    },
+                    {
+                        "src" : "../image/ysh4.png",
+                        "p" : "送长辈"
+                    },
+                    {
+                        "src" : "../image/ysh3.png",
+                        "p" : "送男友"
+                    },
+                    {
+                        "src" : "../image/ysh4.png",
+                        "p" : "送长辈"
+                    }
+                ]
+            }
+        ]
+
+        
+    },
+    {
+        "title": "蛋糕",
+        "content" : ["元祖","幸福西饼","21cake","诺心蛋糕","窝夫小子","BONCAKE"],
+        "menu" : [
+            {
+                "tit" : "蛋糕品牌",
+                "con" : [
+                    {
+                        "src" : "../image/cake1.png",
+                        "p" : "元祖蛋糕"
+                    },
+                    {
+                        "src" : "../image/cake2.png",
+                        "p" : "幸福西饼蛋糕"
+                    },
+                    {
+                        "src" : "../image/cake3.png",
+                        "p" : "甘一客蛋糕"
+                    },
+                    {
+                        "src" : "../image/cake4.png",
+                        "p" : "BONCAKE蛋糕"
+                    },
+                    {
+                        "src" : "../image/cake5.png",
+                        "p" : "窝夫小子蛋糕"
+                    },
+                    {
+                        "src" : "../image/cake6.png",
+                        "p" : "CAKEBOSS蛋糕"
+                    },
+                    {
+                        "src" : "../image/cake7.png",
+                        "p" : "Mcake蛋糕"
+                    },
+                    {
+                        "src" : "../image/cake1.png",
+                        "p" : "元祖蛋糕"
+                    },
+                    {
+                        "src" : "../image/cake2.png",
+                        "p" : "幸福西饼蛋糕"
+                    },
+                    {
+                        "src" : "../image/cake3.png",
+                        "p" : "甘一客蛋糕"
+                    },
+                    {
+                        "src" : "../image/cake4.png",
+                        "p" : "BONCAKE蛋糕"
+                    },
+                    {
+                        "src" : "../image/cake5.png",
+                        "p" : "窝夫小子蛋糕"
+                    },
+                    {
+                        "src" : "../image/cake6.png",
+                        "p" : "CAKEBOSS蛋糕"
+                    },
+                    {
+                        "src" : "../image/cake7.png",
+                        "p" : "Mcake蛋糕"
+                    }
+                ]
+            },
+            {
+                "tit" : "蛋糕城市",
+                "con" : ["北京","上海","深圳","广州","天津","重庆","成都","沈阳","武汉","西安","杭州","石家庄","苏州","长沙","石家庄","上海","深圳","广州","天津","重庆","成都","沈阳","武汉","西安","杭州","南京","苏州","长沙"]
+            }
+        ]
+    },
+    {
+        "title": "礼品/公仔/绿植",
+        "menu" : [
+            {
+                "tit" : "礼品品牌",
+                "con" : [
+                    {
+                        "src" : "../image/item1.png",
+                        "p" : "施华洛世奇"
+                    },
+                    {
+                        "src" : "../image/item2.png",
+                        "p" : "Glam Ever潮牌饰品"
+                    },
+                    {
+                        "src" : "../image/item3.png",
+                        "p" : "迪奥Dior"
+                    },
+                    {
+                        "src" : "../image/item1.png",
+                        "p" : "施华洛世奇"
+                    },
+                    {
+                        "src" : "../image/item2.png",
+                        "p" : "Glam Ever潮牌饰品"
+                    }
+                ]
+            },
+            {
+                "tit" : "礼品类型",
+                "con" : [
+                    {
+                        "src" : "../image/item4.png",
+                        "p" : "音乐盒"
+                    },
+                    {
+                        "src" : "../image/item5.png",
+                        "p" : "金箔花"
+                    },
+                    {
+                        "src" : "../image/item6.png",
+                        "p" : "3D水晶内雕"
+                    },
+                    {
+                        "src" : "../image/item4.png",
+                        "p" : "音乐盒"
+                    },
+                    {
+                        "src" : "../image/item5.png",
+                        "p" : "金箔花"
+                    },
+                    {
+                        "src" : "../image/item6.png",
+                        "p" : "3D水晶内雕"
+                    },
+                    {
+                        "src" : "../image/item4.png",
+                        "p" : "音乐盒"
+                    },
+                    {
+                        "src" : "../image/item5.png",
+                        "p" : "金箔花"
+                    },
+                    {
+                        "src" : "../image/item6.png",
+                        "p" : "3D水晶内雕"
+                    },
+                    {
+                        "src" : "../image/item4.png",
+                        "p" : "音乐盒"
+                    },
+                    {
+                        "src" : "../image/item5.png",
+                        "p" : "金箔花"
+                    }
+                ]
+            }
+
+        ]
+    }
+]

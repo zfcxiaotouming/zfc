@@ -1,0 +1,58 @@
+html,body,ul,p,h1,h2,h3,h4,h5,h6,dl,dt,dd,form,fieldset,legend,table,ol,li,th,td,tr,colgroup,caption {
+    padding: 0;
+    margin: 0;
+}
+body {
+    min-width: 1200px;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: #232628;
+    font-family: "Microsoft Yahei", "微软雅黑", verdana;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+div, ul, ol, dl, p, pre, section, article, aside, li, nav, input, textarea, span, label {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul,ol {
+    list-style: none;
+}
+input,button {
+    outline: none;
+    border: 0;
+}
+img {
+    vertical-align: middle;
+    border: 0;
+}
+a {
+    text-decoration: none;
+    color: #71797f;
+}
+h1,h2,h3,h4,h5,h6,b,strong {
+    font-weight: normal;
+}
+em,i {
+    font-style: normal;;
+}
+.clear:after {
+	content:"";
+	display:block;
+	clear: both;
+	height:0;
+	overflow:hidden;
+	visibility: hidden;
+}
+.clear {
+	zoom:1;
+}
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}

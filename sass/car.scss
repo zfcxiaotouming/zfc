@@ -1,0 +1,241 @@
+
+.width {
+    width: 988px;
+    min-width: 988px;
+    margin: 0 auto;
+}
+.content {
+    margin-bottom: 80px;
+}
+
+.hiden {
+    display: none;
+}
+
+.empty {
+    background: url(../image/gwc_k2.jpg) no-repeat center;
+    background-size: 881px, 281px;
+    width: 881px;
+    height: 281px;
+    position: relative;
+    a {
+        position: absolute;
+        left: 479px;
+        top: 105px;
+        color: #fff;
+        background: #f60;
+        display: inline-block;
+        padding: 3px 10px 3px 13px;
+        border-radius: 6px;
+    }
+}
+
+.shop-box {
+    .shopmenu {
+        border: 1px solid #ccc;
+        .title-box {
+            background: #ebebeb;
+            height: 40px;
+            padding: 0 20px;
+            div {
+                float: left;
+                text-align: center;
+                font-weight: 700;
+                line-height: 40px;
+                height: 40px;
+                color: #737373;
+            }
+            .selector {
+                width: 36px;
+            }
+            .name {
+                width: 430px;
+                text-align: left;
+            }
+            .price,.pr,.count,.action {
+                width: 120px;
+            }
+        }
+        .item {
+            padding: 15px 20px;
+            border-top: 1px solid #d9d9d9;
+            &:first-child{
+                border-top: none;
+            }
+            >div {
+                float: left;
+                text-align: center;
+                height: 40px;
+                color: #666;
+            }
+            .selector {
+                width: 36px;
+                height: 88px;
+                text-align: left;
+                .select-btn {
+                    width: 20px;
+                    height: 20px;
+                    margin-top: 34px;
+                    background: url(../image/ico_unchecked.png) no-repeat center;
+                    background-size: contain;
+                    &:hover {
+                        background-image: url(../image/ico_checkout.png);
+                    }
+                }
+            }
+            .name {
+                width: 430px;
+                text-align: left;
+                height: auto;
+                .shop-img {
+                    float: left;
+                    width: 80px;
+                    height: 88px;
+                    margin-right: 20px;
+                    img {
+                        width: 80px;
+                        height: 88px;
+                    }
+                }
+                .shop-desc {
+                    float: left;
+                    width: 330px;
+                    padding: 24px 0;
+                    display: block;
+                    &:hover {
+                        color: #ff6a00;
+                        text-decoration: underline;
+                    }
+                    p {
+                        height: 20px;
+                        line-height: 20px;
+                    }
+                    .desc {
+                        width: 330px;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        white-space: nowrap;
+                    }
+                    .addr {
+                        color: #ff6a00;
+                    }
+                }
+            }
+            .price,.pr,.count,.action {
+                width: 120px;
+            }
+            .price,.pr {
+                line-height: 88px;
+                text-align: center;
+                font-size: 14px;
+                font-family: arial,Verdana,Arial;
+                height: auto;
+            }
+            .price {
+                color: #999;
+                text-decoration: line-through;
+            }
+            .pr {
+                color: #232628;
+            }
+            .count {
+                padding: 34px 0;
+                .box {
+                    top: 50%;
+                    left: 50%;
+                    height: 20px;
+                    div {
+                        display: inline-block;
+                        width: 20px;
+                        height: 20px;
+                        border: 1px solid #ccc;
+                        line-height: 20px;
+                        cursor: pointer;
+                    }
+                    input {
+                        vertical-align: top;
+                        width: 50px;
+                        border: 1px solid #ccc;
+                        height: 20px;
+                        line-height: 20px;
+                        text-align: center;
+                    }
+                }
+            }
+            .action {
+                text-align: left;
+                padding: 24px 0 24px 46px;
+                height: 88px;
+                a {
+                    color: #737373;
+                    font-size: 12px;
+                    display: block;
+                    line-height: 20px;
+                    &:hover{
+                        color: #ff6a00;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+    .btn-group {
+        margin-top: 20px;
+        .set-bar {
+            width: 870px;
+            border: 1px solid #ccc;
+            border-right: none;
+            height: 50px;
+            line-height: 50px;
+            float: left;
+            padding: 0 20px;
+            a {
+                float: left;
+                position: relative;
+                margin-left: 30px;
+                &:hover {
+                    color: #ff6a00;
+                    text-decoration: underline;
+                }
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    left: -30px;
+                    transform: translate(0, -50%);
+                    display: block;
+                    width: 22px;
+                    height: 22px;
+                    background: url(../image/common_z.png) no-repeat -68px -318px;
+                }
+            }
+            .total {
+                float: right;
+                font-size: 12px;
+               
+                span:nth-of-type(1) {
+                    color: #666;
+                }
+                span:nth-of-type(2) {
+                    font-size: 16px;
+                    font-weight: 700;
+                    color: #ff6a00;
+                }
+            }
+        }
+        .btn {
+            float: left;
+            width: 118px;
+            background: #ff6a00;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            color: #fff;
+        }
+    }
+}
+
+.btn-group {
+    margin-bottom: 30px;
+
+}

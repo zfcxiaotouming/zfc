@@ -1,0 +1,26 @@
+[
+    {
+        "title" : "韩式新品",
+        "desc" : "七夕特惠款",
+        "price" : "￥197",
+        "src": "../image/festival-main1.jpg"
+    },
+    {
+        "title" : "清新设计",
+        "desc" : "马卡龙配色",
+        "price" : "￥535",
+        "src": "../image/festival-main2.jpg"
+    },
+    {
+        "title" : "迪奥口红",
+        "desc" : "永生花礼盒",
+        "price" : "￥598",
+        "src": "../image/festival-main3.jpg"
+    },
+    {
+        "title" : "施华洛世奇",
+        "desc" : "心，随你跳动",
+        "price" : "￥1190",
+        "src": "../image/festival-main4.jpg"
+    }
+]

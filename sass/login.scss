@@ -1,0 +1,223 @@
+.register-box {
+  width: 100%;
+  height: 474px;
+  background: url(../image/login_bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50% 0;
+  .register {
+      position: relative;
+      width: 360px;
+      height: 438px;
+      border-radius: 8px;
+      float: right;
+      background: #fff;
+      margin-top: 18px;
+      overflow: hidden;
+      .register-way {
+          width: 100%;
+          height: 50px;
+          line-height: 50px;
+          border-bottom: 1px solid #ccc;
+          .tel, .account {
+              width: 50%;
+              height: 100%;
+              float: left;
+              text-align: center;
+              font-size: 18px;
+              position: relative;
+              // color: #FF734C;
+              cursor: pointer;
+          }
+          .active {
+              color: #FF734C;
+              &::after {
+                  content: "";
+                  height: 2px;
+                  width: 80%;
+                  background: #FF734C;
+                  position: absolute;
+                  bottom: -1px;
+                  left: 50%;
+                  transform: translateX(-50%);
+                  font-weight: 700;
+              }
+          }
+      }
+      .from {
+          padding: 20px 0 0;
+          .way1 {
+              width: 300px;
+              margin: 0 auto;
+              .tel-login-way, .code-login-way {
+                  padding-top: 10px;
+                  .toggle-way {
+                      text-align: right;
+                      font-size: 12px;
+                      color: #999;
+                      margin-bottom: 10px;
+                      cursor: pointer;
+                  }
+                  .tel,.code, .pwd {
+                      width: 300px;
+                      height: 40px;
+                      border: 1px solid #E9ECF0;
+                      margin-bottom: 30px;
+                      position: relative;
+                      p {
+                            position: absolute;
+                            bottom: -24px;
+                            left: 42px;
+                            font-size: 12px;
+                            color: #FF734C;
+                            display: none;
+                        }
+                        .tip_show {
+                            display: block;
+                        }
+                        i {
+                            width: 34px;
+                            height: 34px;
+                            position: absolute;
+                            background: url(../image/pc_icon.png) no-repeat;
+                            top: 2px;
+                        }
+                        .tel-icon {
+                            background-position: -88px -24px;
+                        }
+                        .pwd-icon {
+                            background-position: -44px -24px;
+                        }
+                        .code-icon {
+                            background-position: 0 -24px;
+                        }
+                        .tel-num,.pwd-str, .email-str {
+                            margin-left: 40px;
+                            height: 38px;
+                            width: 230px;
+                        }
+                    .yzm {
+                        float: left;
+                        margin-left: 40px;
+                        width: 160px;
+                        height: 38px;
+                    }
+                    .yzm-btn {
+                        float: right;
+                        width: 94px;
+                        height: 38px;
+                        background: #E9ECF0;
+                        cursor: pointer;
+                    }
+                    .yzm,.tel-num,.pwd-str, .email-str {
+                        &::-webkit-input-placeholder { /* WebKit browsers 适配谷歌 */
+                            color: #B4BABF;
+                            line-height: 38px;
+                            font-size: 12px;
+                        }
+                        &:-moz-placeholder { /* Mozilla Firefox 4 to 18 适配火狐 */
+                            color: #B4BABF;
+                            line-height: 38px;
+                            font-size: 12px;
+                        }
+                        &::-moz-placeholder { /* Mozilla Firefox 19+ 适配火狐 */
+                            color: #B4BABF;
+                            line-height: 38px;
+                            font-size: 12px;
+                        }
+                        &:-ms-input-placeholder { /* Internet Explorer 10+  适配ie*/
+                            color: #B4BABF;
+                            line-height: 38px;
+                            font-size: 12px;
+                        }
+                    }
+                  }
+                  .reg-bt {
+                      width: 300px;
+                      height: 35px;
+                      background: #FF734C;
+                      border-radius: 35px;
+                      text-align: center;
+                      line-height: 35px;
+                      margin-top: 10px;
+                      color: #fff;
+                      font-size: 16px;
+                      cursor: pointer;
+                  }
+                  .forget {
+                      width: 100px;
+                      margin: 10px auto;
+                      font-size: 14px;
+                      text-align: center;
+                      cursor: pointer;
+                  }
+                  .tip {
+                      width: 200px;
+                      margin: 10px auto;
+                      font-size: 12px;
+                      color: #999;
+                      text-align: center;
+                  }
+              }
+          }
+          .way2 {
+              padding-top: 40px;
+              .yzm-login {
+                  display: block;
+                  width: 150px;
+                  height: 150px;
+                  margin: 0 auto;
+              }
+              p {
+                  margin-top: 20px;
+                  text-align: center;
+              }
+          }
+      }
+      .toggle {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 50px;
+          background: #F7F9FA;
+          padding: 0 40px 0 20px;
+          .three, .login-btn {
+              line-height: 50px;
+              height: 50px;
+          }
+          .three {
+              float: left;
+              .qq, .zfb {
+                  float: left;
+                  i {
+                    display: inline-block;
+                    width: 20px;
+                    height: 20px;
+                    margin-top: 16px;
+                    margin-right: 4px;
+                    vertical-align: top;
+                    background: url(../image/pc_icon.png) no-repeat;
+                  }
+                  .qq-icon {
+                    background-position: -30px -94px;
+                  }
+                  .zfb-icon {
+                    background-position: -60px -94px;
+                  }
+              }
+              .zfb {
+                  margin-left: 20px;
+              }
+          }
+          .register-btn {
+              line-height: 50px;
+              float: right;
+              color: #FF734C;
+              cursor: pointer;
+          }
+      }
+  }
+  .hidden {
+      display: none;
+  }
+}
